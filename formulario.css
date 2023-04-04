@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+  }
+
+#titulo
+{
+  font-family: sans-serif;
+  color: #380861;
+  margin-left: 30%; /*margem lado esquerdo*/
+}
+
+#subtitulo{
+  font-family: sans-serif;
+  color: #380861;
+  margin-left: 30%;
+}
+
+fieldset{
+  border: 0;
+  margin-left: 30%;
+
+}
+
+body{
+    background-color: #d9c7ee;
+    font-family: sans-serif;
+    font-size: 1em;  /*tamanho da fonte*/
+    color:#594295;
+    margin-left: 1%;
+    margin-top: 2%;
+    justify-content: center; /*justificado e centralizado*/
+
+}
+
+input, button{
+    border-radius: 5px; /*borda*/
+
+}
+
+.campo{
+    margin-bottom: 3%; /*margem da parte debaixo*/
+    margin-left: 30%;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #594295;
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input [type="text"], .campo input[type="email"]{
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px #0a0113;
+    display:block;
+}
+
+.campo input:focus{
+    background-color: #e0ef8e;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #59429d;
+    border: 1;
+    margin-bottom: 1em;
+    color: #ffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #0a0113;
+    text-shadow: 1px 1px 1px #0a0113;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.botao:hover{
+    background: #6d687c;
+    box-shadow: 2px 2px 2px #0a0113;
+    text-shadow:none;
+}
+
+:root
+{
+  --cor-fundo : #599dbd;
+  --cor-hover : #0a9750;
+  --cor-primaria : #ffffff;
+
+}
+
+.topo nav
+{
+
+  padding: 0;
+list-style-type:  none;
+background-color: var(--cor-fundo);
+text-align: left;
+margin-left: 0%;
+
+
+
+
+ /* padding: 20px;
+  width: 50%;
+  text-align: right;*/
+}
+
+.topo ul li
+{ /*iten que tem dentro no menu*/
+  display: inline-block;
+  
+  
+}
+
+ 
+ /* .navbar {
+    overflow: hidden;
+    
+    position: fixed; Set the navbar to fixed position 
+    top: 0;  Position the navbar at the top of the page 
+    width: 100%;  Full width 
+  }*/
+
+.topo ul li a /*cor do texto do menu*/
+{
+  color:  var(--cor-primaria);
+  display: inline-block;
+  text-decoration: none; /*retira o sublinhado*/
+  padding: 10px; /*espaçamento interno*/
+}
+
+.topo ul li a :hover
+{
+  background-color:aquamarine;
+}
+
+footer {
+    width: 100%;
+    padding: 0.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6e0472;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 0%;
+  }

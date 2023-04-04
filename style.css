@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  
+}
+
+body
+  {
+    font-family: Open Sans, sans-serif;
+  
+  }
+
+  :root
+{
+  --cor-fundo : #599dbd;
+  --cor-hover : #0a9750;
+  --cor-primaria : #ffffff;
+
+}
+
+.topo nav
+{
+
+  padding: 0;
+list-style-type:  none;
+background-color: var(--cor-fundo);
+
+ /* padding: 20px;
+  width: 50%;
+  text-align: right;*/
+}
+
+.topo ul li
+{ /*iten que tem dentro no menu*/
+  display: inline;
+  
+}
+
+ 
+ /* .navbar {
+    overflow: hidden;
+    
+    position: fixed; Set the navbar to fixed position 
+    top: 0;  Position the navbar at the top of the page 
+    width: 100%;  Full width 
+  }*/
+
+.topo ul li a /*cor do texto do menu*/
+{
+  color:  var(--cor-primaria);
+  display: inline-block;
+  text-decoration: none; /*retira o sublinhado*/
+  padding: 10px; /*espaçamento interno*/
+}
+
+.topo ul li a :hover
+{
+  background-color:aquamarine;
+}
+
+
+  
+
+  .bg
+  {
+    background-image: url("Imagens/FundoTec.jpg");
+    background-repeat: no-repeat; /* a imagem ficará inteira sem repetir na tela*/
+    background-size: cover; /* A imagem ira cobrir toda area*/
+    background-position: center; /* centralizar a imagem*/
+    background-attachment: fixed; /* imagem fixada ao fazer scroll*/
+
+  }
+
+  
+
+  .center
+  {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0 2%;
+
+  }
+
+  .logo
+  {
+    width: 50%;
+  }
+ 
+  .menu a
+  { /*iten que tem dentro no menu*/
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+
+  }
+
+ 
+
+    
+  
+  header {
+    height: 100px;
+    padding: 20px 0;
+   margin-bottom: 40px;
+   color: rgb(169, 195, 245);
+     
+  }
+  
+  h1,h5{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align :center;
+    
+  }
+
+  
+  section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+  }
+  
+  .card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000000;
+    vertical-align: top;
+    max-height: 100%;
+  }
+  
+  .card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    color: aliceblue;
+    
+  }
+  
+  .card details summary {
+    font-size: 18px;
+    padding: 10px;
+    color:rgb(28, 17, 128);
+    background-color: #777;
+    
+  }
+  
+  .card details p {
+    padding: 0 10px;
+  }
+
+
+
+section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.mais
+{
+  background-image: url("Imagens/FundoTec.jpg");
+  background-repeat: no-repeat; /* a imagem ficará inteira sem repetir na tela*/
+  background-size: cover; /* A imagem ira cobrir toda area*/
+  background-position: center; /* centralizar a imagem*/
+  background-attachment: fixed; /* imagem fixada ao fazer scroll*/
+}
+
+.mais p
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  color: rgb(241, 234, 234);
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.mais header
+{
+ 
+    height: 100px;
+    padding: 20px 0;
+   margin-bottom: 40px;
+   color: rgb(169, 195, 245);
+     
+  
+}
+
+.block
+{
+  display: inline-block;
+  margin: 10px;
+  border: none;
+  vertical-align: top;
+  max-height: 100%;
+  
+}
+
+/*quem somos*/
+.card_quem
+{
+  display:inline-block;
+    margin: 380px;
+    border: 1px solid #000000;
+    vertical-align: top;
+    max-height: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-block-end: 0%;
+}
+
+/*localização*/
+.mapa
+{
+  margin: 50px;
+}
+
+.mapa h3
+{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.quem_bg
+{
+  background-color: rgb(168, 236, 236);
+}
+
+.quem_bg h1
+{
+  color: darkmagenta;
+}
+
+/*rodapé*/
+
+footer {
+  width: 100%;
+  padding: 0.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6e0472;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+
