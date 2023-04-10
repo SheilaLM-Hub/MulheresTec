@@ -24,8 +24,8 @@ body
 {
 
   padding: 0;
-list-style-type:  none;
-background-color: var(--cor-fundo);
+ list-style-type:  none;
+ background-color: var(--cor-fundo);
 
  /* padding: 20px;
   width: 50%;
