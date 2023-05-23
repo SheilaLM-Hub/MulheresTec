@@ -1,28 +1,92 @@
 *{
-   
-    padding: 0;
-    box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+ 
+  
+}
+
+body
+  {
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+  
   }
+
+  :root
+{
+  --cor-fundo : #599dbd;
+  --cor-hover : #0a9750;
+  --cor-primaria : #ffffff;
+
+}
+
+.topo nav
+{
+
+  padding: 0;
+ list-style-type:  none;
+ background-color: var(--cor-fundo);
+
+ /* padding: 20px;
+  width: 50%;
+  text-align: right;*/
+}
+
+.topo ul li
+{ /*iten que tem dentro no menu*/
+  display: inline;
+  
+}
+
+ 
+ /* .navbar {
+    overflow: hidden;
+    
+    position: fixed; Set the navbar to fixed position 
+    top: 0;  Position the navbar at the top of the page 
+    width: 100%;  Full width 
+  }*/
+
+.topo ul li a /*cor do texto do menu*/
+{
+  color:  var(--cor-primaria);
+  display: inline-block;
+  text-decoration: none; /*retira o sublinhado*/
+  padding: 10px; /*espaçamento interno*/
+}
+
+
+section{
+  display:inline-block;
+    text-align: justify;
+    border: 1px solid rgb(168, 236, 236);
+    vertical-align: top;
+   /* max-height: 100%;*/
+    padding: 20px;
+    margin-top: 20px;
+    margin-block-end: 0%;
+    margin-bottom: 150px;
+}
 
 #titulo
 {
   font-family: sans-serif;
   color: #380861;
-  margin-left: 30%; /*margem lado esquerdo*/
+  margin-left: 10%; /*margem lado esquerdo*/
   
 }
 
 #subtitulo{
   font-family: sans-serif;
   color: #380861;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 fieldset{
   border: 0;
-  margin-left: 30%;
+  margin-left: 10%;
 
 }
 
@@ -46,7 +110,7 @@ input, button{
 
 .campo{
     margin-bottom: 3%; /*margem da parte debaixo*/
-    margin-left: 30%;
+    margin-left: 10%;
 }
 
 .campo label{
@@ -152,14 +216,13 @@ fieldset.grupo .campo{
 }
 
 footer {
-    width: 100%;
-    padding: 0.6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #6e0472;
-    color: #ffffff;
-    box-sizing: border-box;
-    margin-bottom: 0%;
-    margin-left: 0%;
+  width: 100%;
+  padding: 0.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6e0472;
+  color: #ffffff;
+  box-sizing: border-box;
+  
   }

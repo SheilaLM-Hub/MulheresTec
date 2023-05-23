@@ -23,7 +23,7 @@ body
 .topo nav
 {
 
-  padding: 0;
+ margin-top: 0%;
  list-style-type:  none;
  background-color: var(--cor-fundo);
 
@@ -212,13 +212,25 @@ section {
 .card_quem
 {
   display:inline-block;
-    margin: 380px;
-    border: 1px solid #000000;
+    margin: 250px;
+    border: 1px solid rgb(168, 236, 236);
     vertical-align: top;
     max-height: 100%;
     padding: 20px;
     margin-top: 20px;
     margin-block-end: 0%;
+}
+
+.card_quem img{
+  padding: 50px  50px 0.5px 50px ;
+  width: 800px;
+  height: 380px;
+  
+}
+
+.card_quem p{
+  text-align: justify;
+  padding: 50px;
 }
 
 /*localização*/
