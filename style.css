@@ -259,6 +259,10 @@ body
   }
 }
 
+.mais header h1{
+  font-size: 25px;
+}
+
 .block
 {
   display: inline-block;
@@ -278,8 +282,7 @@ body
 
 @media (max-width: 768px) {
   .block iframe {
-    display:inline-block;
-       width: 100%;
+      width: 60%;
        height: 100%;
   }
 }
@@ -291,7 +294,7 @@ body
 {
   display:inline-block;
     text-align: center;
-    vertical-align: top;
+   /* vertical-align: top;*/
     max-height: 100%;
     padding: 20px;
     margin-top: 20px;
@@ -361,6 +364,8 @@ body
 .quem_bg h1
 {
   color: darkmagenta;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 /*rodapé*/
