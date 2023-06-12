@@ -110,12 +110,29 @@ body
    color: rgb(169, 195, 245);
      
   }
+  @media (max-width: 768px) {
+    header {
+         margin-bottom: 20px;
+         height: 200px;
+    }
+  }
   
   h1,h5{
     text-transform: uppercase;
     margin-bottom: 0;
     text-align :center;
     
+  }
+
+  h1,h5 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    h1,h5 {
+         font-size: 36px;
+    }
   }
 
   
@@ -133,11 +150,31 @@ body
     vertical-align: top;
     max-height: 100%;
   }
+
+  .card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;
+    max-height: 100%;
+  }
+  @media (max-width: 768px) {
+    .card {
+         display: block;
+         margin: 20px 10px;
+    }
+  }
   
   .card img {
     display: block;
     width: 300px;
     height: 300px;
+  }
+  @media (max-width: 768px) {
+    .card img {
+         width: 100%;
+         height: 100%;
+    }
   }
   
   .card details {
@@ -146,6 +183,13 @@ body
     display: inline-block;
     color: aliceblue;
     
+  }
+
+  
+  @media (max-width: 768px) {
+    .card details {
+         width: 100%;
+    }
   }
   
   .card details summary {
@@ -156,18 +200,22 @@ body
     
   }
   
+  @media (max-width: 768px) {
+    .card details summary {
+         font-size: 16px;
+    }
+  }
+  
   .card details p {
     padding: 0 10px;
   }
-
-
-
-section {
-    margin: 0 auto;
-    display: block;
-    max-width: 1024px;
-    width: 100%;
-}
+  
+  @media (max-width: 768px) {
+    .card details p {
+         font-size: 14px;
+    }
+  }
+  
 
 .mais
 {
@@ -187,6 +235,13 @@ section {
 
 }
 
+@media (max-width: 768px) {
+  .mais p {
+       font-size: 14px;
+  }
+}
+
+
 .mais header
 {
  
@@ -195,7 +250,13 @@ section {
    margin-bottom: 40px;
    color: rgb(169, 195, 245);
      
-  
+}
+
+@media (max-width: 768px) {
+  .mais header {
+       margin-bottom: 20px;
+       height: 200px;
+  }
 }
 
 .block
@@ -207,13 +268,29 @@ section {
   max-height: 100%;
   
 }
+@media (max-width: 768px) {
+  .block {
+    display:inline-block;
+       width: 100%;
+       height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .block iframe {
+    display:inline-block;
+       width: 100%;
+       height: 100%;
+  }
+}
+
+
 
 /*quem somos*/
 .card_quem
 {
   display:inline-block;
-    margin: 250px;
-    border: 1px solid rgb(168, 236, 236);
+    text-align: center;
     vertical-align: top;
     max-height: 100%;
     padding: 20px;
@@ -221,22 +298,53 @@ section {
     margin-block-end: 0%;
 }
 
+@media (max-width: 768px) {
+  .card_quem {
+    display:inline-block;
+       width: 100%;
+       height: 100%;
+  }
+}
+
 .card_quem img{
+  display:inline-block;
   padding: 50px  50px 0.5px 50px ;
   width: 800px;
   height: 380px;
   
 }
+@media (max-width: 768px) {
+  .card_quem img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+  }
+  }
 
 .card_quem p{
   text-align: justify;
   padding: 50px;
 }
 
+@media (max-width: 768px) {
+  .card_quem p {
+       font-size: 14px;
+  }
+}
+
 /*localização*/
 .mapa
 {
   margin: 50px;
+}
+
+
+@media (max-width: 768px) {
+  .mapa{
+       width: 100%;
+       height: 100%;
+  }
 }
 
 .mapa h3
@@ -268,88 +376,25 @@ footer {
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-  header {
-       margin-bottom: 20px;
-       height: 200px;
-  }
-}
 
-h1 {
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
 
-@media (max-width: 768px) {
-  h1 {
-       font-size: 36px;
-  }
-}
 
-section {
-  margin: 0 auto;
-  display: block;
-  max-width: 1024px;
-  width: 100%;
-}
 
-.card {
-  display: inline-block;
-  margin: 10px;
-  border: 1px solid #000;
-  vertical-align: top;
-  max-height: 100%;
-}
 
-@media (max-width: 768px) {
-  .card {
-       display: block;
-       margin: 20px 10px;
-  }
-}
 
-.card img {
-  display: block;
-  width: 300px;
-  height: 300px;
-}
 
-@media (max-width: 768px) {
-  .card img {
-       width: 100%;
-       height: 100%;
-  }
-}
 
-.card details {
-  width: 300px;
-  height: auto;
-  display: inline-block;
-}
 
-@media (max-width: 768px) {
-  .card details {
-       width: 100%;
-  }
-}
 
-.card details summary {
-  font-size: 18px;
-  padding: 10px;
-}
 
-@media (max-width: 768px) {
-  .card details summary {
-       font-size: 16px;
-  }
-}
 
-.card details p {
-  padding: 0 10px;
-}
 
-@media (max-width: 768px) {
-  .card details p {
-       font-size: 14px;
-  }
-}
+
+
+
+
+
+
+
+
+
